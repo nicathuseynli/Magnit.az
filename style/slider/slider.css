@@ -1,0 +1,139 @@
+
+.slide-container {
+  padding: 40px 0;
+}
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.swiper-navBtn {
+  color: #000000;
+  transition: color 0.3s ease;
+  font-weight: 900;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev {
+  left: 0;
+}
+@media screen and (max-width: 519px) {
+  .slide-content {
+    margin: 0 40px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 520px) {
+  .slide-content {
+    margin: 0 !important;
+  }
+}
+.new-product {
+  position: relative;
+}
+.reklam__category {
+  width: 100%;
+}
+.category__img {
+  max-width: 100%;
+}
+.wrapper {
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 50px 10px;
+  }
+}
+
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+
+@media (max-width: 767px) {
+  .slider {
+    padding: 0px 40px;
+  }
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../../img/sl-arrow_l.svg") 0 0 / 100% no-repeat;
+  border: transparent;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../../img/sl-arrow_r.svg") 0 0 / 100% no-repeat;
+  border: transparent;
+}
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.slider__item {
+  padding: 0px 15px;
+}
+.slider__item img {
+  max-width: 100%;
+}
+.product-details-slider-big{
+  text-align: right;
+}
